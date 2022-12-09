@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/login', function(req, res) {
-    res.sendFile(__dirname + "/login.ejs");
+    res.render('login');
 });
 
 /*
